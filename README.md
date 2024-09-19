@@ -27,11 +27,11 @@ This feature enables users to upload an image containing one or more Pokémon, a
 The app allows users to select Pokémon and compare their statistics (such as Attack, Defense, Speed, etc.) visually using radar charts.
 
 #### Key Technologies:
-- **Matplotlib** or **Plotly**: Libraries used to generate radar charts.
+- **Matplotlib**: Library used to generate radar charts.
 - **Pokémon Stats Dataset**: A dataset that contains detailed statistics of Pokémon, such as Attack, Defense, Special Attack, Special Defense, Speed, and more.
 
 #### Steps:
-- Users select up to 5 Pokémon for comparison.
+- Users select one Pokémon for comparison.
 - A radar chart is generated showing the stat differences between the selected Pokémon, making it easier to compare strengths and weaknesses.
 
 ### 3. Pokémon Battle Strategy Chatbot
@@ -55,6 +55,6 @@ To run the app, you'll need the following dependencies:
 - Streamlit
 - Hugging Face Transformers
 - FAISS (for vector search)
-- Matplotlib or Plotly (for radar charts)
-- TensorFlow or PyTorch (for CNN model)
+- Matplotlib (for radar charts)
+- TensorFlow (for CNN model)
 - Additional libraries: pandas, numpy, etc.
